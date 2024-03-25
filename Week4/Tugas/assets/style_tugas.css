@@ -1,0 +1,236 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(180, 180, 180);
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*SIDEBAR*/
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 190px;
+  background-image: linear-gradient(purple, black);
+  z-index: 100;
+}
+
+.sidebar ul{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.sidebar ul li{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 30px 55px;
+}
+/*END OF SIDEBAR*/
+
+/*CONTENT*/
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 200px;
+  width: 1200px;
+}
+
+.content .hero{
+  display: flex;
+  align-items: center;
+}
+
+.content .hero img{
+  width: 300px;
+  order: 2;
+  margin-top: -160px;
+}
+
+.content .hero .hero-content h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 84px;
+  font-weight: 400;
+  color: rgb(61, 55, 83);
+  width: 1100px;
+}
+
+.content .hero .hero-content h2{
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+}
+
+.content .hero .hero-content p {
+  padding: 0;
+  margin-right: 0;
+  font-size: 24px;
+  max-width: 65%;
+}
+
+.content .hero .hero-content .action-btn {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 40px;
+  background-color: rgb(61, 55, 83);
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+/*END OF CONTENT*/
+
+/*FOOTER*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a7a5a5;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin: 0 100px;
+}
+
+.footer ul li img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+
+.footer ul li a {
+  text-decoration: none;
+  color: #000;
+}
+/*END OF FOOTER*/
+
+@media screen and (max-width: 768px){
+  /*SIDEBAR*/
+  .sidebar{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    background-image: linear-gradient(to right, #a1a49b , #9a7299, #5c5882);
+  }
+
+  .sidebar ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidebar ul li{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  font-size: 25px;
+  padding: 120px;
+  }
+  /*END OF SIDEBAR*/
+
+  /*CONTENT*/
+  .content{
+  margin-top: 350px;
+  margin-left: 20px;
+  }
+
+  .content .hero{
+    display: block;
+    align-content: center;
+    text-align: center ;
+    line-height: 36px;
+  }
+
+  .content .hero img{
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+
+  .content .hero .hero-content h1{
+    font-size: 56px;
+    width: auto;
+  }
+
+  .content .hero .hero-content h2{
+    font-size: 42px;
+  }
+
+  .content .hero .hero-content p{
+    max-width: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .footer{
+    padding: 10px 0;
+    position: fixed;
+  }
+  .footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer ul li {
+    margin: 20px 40px;
+  }
+  
+}
