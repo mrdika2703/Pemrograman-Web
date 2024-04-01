@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar JavaScript</title>
+    <!-- <script src="./assets/my_code_1.js" defer></script>
+    <script src="./assets/my_code_2.js" defer></script> -->
+  </head>
+  <body>
+    <!-- <h2>Hello World</h2>
+    <h1 id="myH1"></h1>
+    <script>
+      document.getElementById("myH1").innerHTML = "Hello World";
+    </script>
+
+
+    <h2>Inline JavaScript</h2>
+    <button onclick="document.getElementById('myH1').innerHTML='Hello World'">
+      Click me!
+    </button>
+    <h1 id="myH1"></h1>
+
+
+    <h2>Internal JavaScript</h2>
+    <h1 id="myH1"></h1>
+    <button id="myButton">Click me!</button>
+    <h1 id="myH1"></h1>
+    <script>
+      document
+        .getElementById("myButton")
+        .addEventListener(
+          "click",
+          () => (document.getElementById("myH1").innerHTML = "Hello World")
+        );
+    </script> -->
+
+    <!-- <h2>Eksternal JavaScript</h2>
+    <button id="myButton">Click me!</button>
+    <h1 id="myH1"></h1>
+    <script src="assets/my_code.js"></script> -->
+
+    <!-- <h2>Eksternal Defer</h2>
+    <h1 id="myH1"></h1> -->
+
+    <!-- <h2>No Script</h2>
+    <h1 id="myH1"></h1>
+
+    <script>
+        document.getElementById('myH1').innerHTML='JavaScript Aktif';
+    </script>
+    <noscript>
+        <h2>JavaScript tidak aktif, mohon diaktifkan untuk bisa mengakses halaman ini<h2>
+    </noscript> -->
+
+    <!-- <h1>Belajar JavaScript : Variables</h1>
+    <script>
+      // Deklarasi Variabel
+      var angka1;
+      let angka2;
+
+      // Mengisi Nilai Variabel
+      let angka;
+      angka = 192;
+      console.log(angka);
+
+      // Inisialisasi Variabe
+      let angka3 = 192;
+      console.log(angka3); // 192
+
+      // Typeless Programming Language
+      let foo;
+      foo = "Selamat Pagi";
+      console.log(foo); // Selamat Pagi
+
+      foo = 1234.56;
+      console.log(foo); // 1234.56
+
+      foo = "Selamat Malam";
+      console.log(foo); // Selamat Malam
+
+      foo = false;
+      console.log(foo); // false
+
+      // Konstanta
+      const PI = 3.14;
+      const SEMANGAT_PAGI = "Semangat Pagi";
+
+      console.log(PI); // 3.14
+      console.log(SEMANGAT_PAGI); // Semangat Pagi
+
+      // Konstanta Error
+      // const PHI = 3.14;
+      // PHI = 4.14; // TypeError: Assignment to constant variable
+
+      // const SALAM_PAGI; // SyntaxError: Missing initializer in const declaration
+      // SALAM_PAGI = "Selamat Pagi";
+    </script> -->
+
+    <!-- <h1>Belajar JavaScript: Data Type</h1>
+    <script>
+      // Number
+      let foo = 100;
+      let bar = -5000;
+      let baz = 0.66634;
+
+      console.log(foo); // 100
+      console.log(bar); // -5000
+      console.log(baz); // 0.66634
+
+      // String
+      let text;
+
+      text = "Hello World";
+      console.log(text);
+
+      text = "Sedang belajar JavaScript";
+      console.log(text);
+
+      text = "199";
+      console.log(text);
+
+      // Type Of
+      let num = 199;
+      console.log(typeof num); // number
+
+      let word = "199";
+      console.log(typeof word); // string
+
+      // Template String
+      let name = "Purnama";
+      let hello = `Semangat Pagi ${name}`;
+      console.log(hello); // Semangat Pagi Purnama
+
+      let myHello = "Semangat Pagi " + name;
+      console.log(myHello); // Semangat Pagi Purnama
+
+      // Boolean
+      let benar = true;
+      let salah = false;
+
+      console.log(benar); // true
+      console.log(salah); // false
+
+      // Null
+      let myNull = null;
+      console.log(myNull); // null
+
+      // Array
+      let siswa = ["Andri", "Joko", "Sukma", "Rina", "Sari"];
+
+      console.log(siswa[0]); // Andri
+      console.log(siswa[1]); // Joko
+      console.log(siswa[2]); // Sukma
+      console.log(siswa[3]); // Rina
+      console.log(siswa[4]); // Sari
+
+      //   Change Array Value
+      let arr = ["andi", "santi", "joko"];
+
+      arr[0] = "alex";
+      console.log(arr); // Array [ "alex", "santi", "joko" ]
+
+      arr[3] = "rika";
+      console.log(arr); // Array [ "alex", "santi", "joko", "rika" ]
+
+      //   Array Destructuring
+      let mahasiswa = ["Andi", "Lisa", "Eko"];
+      let [a, b, c] = mahasiswa;
+
+      console.log(a); // Andi
+      console.log(b); // Lisa
+      console.log(c); // Eko
+    </script> -->
+
+    <!-- <h1>Belajar JavaScript : Operator</h1>
+    <script>
+      // Aritmatika
+      let foo;
+
+      foo = +100;
+      console.log(foo); // 100
+
+      foo = -22;
+      console.log(foo); // -22
+
+      foo = 30 + 5;
+      console.log(foo); // 35
+
+      foo = 3.33 + 9.02;
+      console.log(foo); // 12.35
+
+      foo = 9 * 7;
+      console.log(foo); // 63
+
+      foo = 9 ** 2;
+      console.log(foo); // 81
+
+      foo = 6 + 8 / 2 + 6;
+      console.log(foo); // 16
+
+      foo = 30 % 7;
+      console.log(foo); // 2
+
+      // Increment & Decrement
+      let val;
+
+      val = 7;
+      console.log(++val); // 8
+      console.log(val); // 8
+
+      val = 7;
+      console.log(val++); // 7
+      console.log(val); // 8
+
+      val = 7;
+      console.log(--val); // 6
+      console.log(val); // 6
+
+      val = 7;
+      console.log(foo--); // 7
+      console.log(val); // 6
+
+      // Spread Operator
+      let nilai1 = ["a", "b", "c", "d"];
+      console.log(nilai1); // Array [ "a", "b", "c", "d" ]
+
+      let nilai2 = [1, 2, 3, 4];
+      console.log(nilai2); // Array [ 1, 2, 3, 4 ]
+
+      let nilai3 = [...nilai1, "e", "f"];
+      console.log(nilai3); // Array [ "a", "b", "c", "d", "e", "f" ]
+
+      let nilai4 = [0, ...nilai2, 5, 6];
+      console.log(nilai4); // Array [ 0, 1, 2, 3, 4, 5, 6 ]
+
+      let nilai5 = [...nilai2, ...nilai3];
+      console.log(nilai5); // Array [ 1, 2, 3, 4, "a", "b", "c", "d", "e", "f" ]
+
+      // Spread Operator Object
+      let mahasiswa = {
+        nama: "Budi",
+        umur: 19,
+        jurusan: "Informatika",
+      };
+
+      let mahasiswa1 = {
+        ...mahasiswa,
+        umur: 20,
+        tempatLahir: "Surabaya",
+      };
+
+      console.log(mahasiswa1); // {nama: "Budi", umur: 20, jurusan: "Informatika", tempatLahir: "Surabaya"}
+    </script> -->
+
+    <!-- <h1>Belajar JavaScript: Logic</h1>
+    <script>
+      // IF
+      let user = "admin";
+      if (user === "admin") {
+        console.log("Selamat datang admin...");
+      }
+
+      // IF ELSE
+      let hari = "selasa";
+
+      if (hari === "senin") {
+        console.log("Saatnya kerja...");
+      } else {
+        console.log("Bukan hari senin...");
+      }
+
+      // SWITCH
+      let nilai = 6;
+
+      switch (nilai) {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+          console.log("Selama ini ngapain aja bro?");
+          break;
+        case 6:
+        case 7:
+        case 8:
+          console.log("Belajar lebih giat lagi!");
+          break;
+        case 9:
+        case 10:
+          console.log("Pertahankan!");
+          break;
+        default:
+          console.log("Masukkan angka 1 - 10");
+      }
+
+      // FOR
+      for (let i = 100; i >= 0; i = i - 5) {
+        console.log(i + " * 5 = " + i * 5);
+      }
+
+      // Menampilkan Array
+      let siswa = ["Andri", "Joko", "Sukma", "Rina", "Sari"];
+
+      for (let i = 0; i < 5; i++) {
+        console.log(siswa[i]);
+      }
+
+      // Array Length
+      let murid = ["Andri", "Joko", "Sukma", "Rina", "Sari"];
+      let jumlah_murid = murid.length;
+
+      console.log("Jumlah murid = " + jumlah_murid);
+
+      for (let i = 0; i < jumlah_murid; i++) {
+        console.log(murid[i]);
+      }
+
+      // FOR OF ARRAY
+      let siswas = ["Andri", "Joko", "Sukma", "Rina", "Sari"];
+
+      for (let i of siswas) {
+        console.log(i);
+      }
+    </script> -->
+
+    <h1>Belajar JavaScript: Function</h1>
+    <script>
+      // Calling Function
+      function pagi() {
+        console.log("Selamat Pagi");
+        console.log("Good Morning");
+        console.log("Ohayou Gozaimasu");
+        console.log("Buenos Dias");
+      }
+      pagi();
+      pagi();
+      pagi();
+
+      // Return Value
+      function pagi() {
+        return "Semangat Pagi";
+      }
+      let salam = pagi();
+      console.log(salam); // "Semangat Pagi"
+
+      // Parameter & Argument;
+      function pagi(siapa) {
+        return "Semangat Pagi " + siapa;
+      }
+      console.log(pagi("Budi")); // Semangat Pagi Budi
+      console.log(pagi("Joko")); // Semangat Pagi Joko
+      console.log(pagi("Sari")); // Semangat Pagi Sari
+
+      // Default Parameter
+      function rata2(a = 10, b = 10, c = 10, d = 10) {
+        let hasil = (a + b + c + d) / 4;
+        return hasil;
+      }
+      let nilai1 = rata2();
+      console.log(nilai1); // 10
+      let nilai2 = rata2(20);
+      console.log(nilai2); // 12.5
+      let nilai3 = rata2(20, 5, 30);
+      console.log(nilai3); // 16.25
+
+      // Normal Function
+      function kuadrat(a) {
+        return a * a;
+      }
+      console.log(kuadrat(5)); // 25
+
+      // Const Function
+      const kuadrat2 = function (a) {
+        return a * a;
+      };
+      console.log(kuadrat2(5)); // 25
+
+      // Arrow Function
+      const kuadrat3 = (a) => {
+        return a * a;
+      };
+      console.log(kuadrat3(5)); // 25
+
+      // Arrow Function
+      const kuadrat4 = (a) => a * a;
+      console.log(kuadrat4(5)); // 25
+
+      // Arrow Function
+      const kuadrat5 = (a) => a * a;
+      console.log(kuadrat5(5)); // 25
+
+      // Arrow Function
+      const greeting = () => "Semangat Pagi";
+      console.log(greeting()); // Semangat Pagi
+
+      // Arrow Function
+      const greeting2 = (kapan, siapa) => `Selamat ${kapan}, ${siapa}`;
+      console.log(greeting2("Pagi", "Budi")); // Selamat Pagi, Budi
+
+      // Arrow Function
+      const greeting3 = (kapan = "Pagi", siapa = "Kawan") =>
+        `Selamat ${kapan}, ${siapa}`;
+
+      console.log(greeting3()); //  Selamat Pagi, Kawan
+      console.log(greeting3("Sore")); //  Selamat Sore, Kawan
+      console.log(greeting3("Malam", "Budi")); //  Selamat Malam, Budi
+    </script>
+
+    
+  </body>
+</html>
