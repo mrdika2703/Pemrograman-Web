@@ -1,0 +1,85 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20%;
+    background: rgb(5,17,43);
+    background: linear-gradient(3deg, rgba(5,17,43,1) 0%, rgba(27,87,142,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+.title {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+  }
+
+.form {
+    display: flex;
+    justify-content: center;
+  }
+
+fieldset {
+  margin: 0 20px;
+  padding: 15px;
+  border: 1px solid #c3efff;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  
+}
+
+legend {
+  font-weight: bold;
+}
+
+td {
+    padding: 5px;
+}
+.TdRight {
+    padding-left: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input [type="number"],
+input [type="url"] {
+  width: 215px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+}
+
+span {
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+  }
+
+input[type="submit"] {
+  background-color: #164d8c;
+  color: white;
+  padding: 10px 185px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #215da1;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
