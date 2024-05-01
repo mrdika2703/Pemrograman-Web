@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <style>
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: rgb(179, 18, 18);;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+      }
+
+      #myBtn:hover {
+        background-color: #555;
+      }
+    </style>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico" />
+    <title>Project | Case Based UTS</title>
+  </head>
+  <body style="padding-top: 50px">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="padding-left: 15px">
+          <img
+            src="image/logo.png"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="resume.html"><b>Project</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text"> Case Base UTS Pemrograman Web </span>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <h2 class="ContactTitle"><b>Project</b></h2>
+          <div class="barContact"></div>
+        </div>
+
+        <br />
+
+        <div class="row mainCardContact">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Pemrograman Beriorientasi Object</h3>
+            <div class="resume-item">
+              <h4>Library Management</h4>
+              <p>
+                Program ini menggunakan bahasa Java yang dioperasikan di
+                Netbeans, tujuan dari program ini adalah untuk mempermudah
+                pengelolaan buku di Perpustakaan, memiliki 2 User yaitu Admin
+                dan Pustakawan.
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Screenshot Program</h4>
+              <img src="image/projectA1.png" class="img-fluid" alt="" />
+              <img src="image/projectA3.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Pemrograman Web</h3>
+            <div class="resume-item">
+              <h4>Web Pengenalan Diri</h4>
+              <p>
+                Web ini menggunakan html, css dan js. Tujuan dari web ini selain
+                memenuhi penilaian UTS juga untuk mengenalkan diri dari anggota
+                project seperti Biodata, Foto, Kontak dll.
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Screenshot Program</h4>
+              <img src="image/projectD1.png" class="img-fluid" alt="" />
+              <img src="image/projectD2.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Jaringan dan Komputer</h3>
+            <div class="resume-item">
+              <h4>Desain Jaringan Routing</h4>
+              <p>
+                Project ini adalah tugas besar dari mata kuliah jaringan
+                komputer. project ini menggunakan Cisco Packet Tracer, dimulai
+                dari konfigurasi subnetting, DHCP Server, routing dinamis,
+                routing static, lalu dokumentasi alamat IP.
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Screenshot Program</h4>
+              <img src="image/projectB1.jpeg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Pengolahan Citra Digital</h3>
+            <div class="resume-item">
+              <h4>Program Pendeteksi wajah</h4>
+              <p>
+                Proyek ini menggunakan teknologi pengolahan citra untuk
+                mengenali wajah dalam gambar atau video. Langkah-langkahnya
+                meliputi pengumpulan data wajah, pelatihan model dengan
+                Convolutional Neural Networks, validasi, dan pengujian. Hasilnya
+                adalah aplikasi pendeteksi wajah untuk berbagai tujuan seperti
+                keamanan dan otentikasi.
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Screenshot Program</h4>
+              <img src="image/projectC1.jpeg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Pemrograman Web</h3>
+            <div class="resume-item">
+              <h4>Memenuhi Syarat tag</h4>
+            </div>
+            <div class="resume-item">
+              <h4>Tag Video</h4>
+              <video class="img-fluid" autoplay loop muted>
+                <source src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+    <br /><br />
+
+    <footer class="text-center bg-dark" style="width: 100%">
+      <div class="text-center p-3" style="color: white">
+        © 2024 | Case Based UTS Pemrograman web
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/behavior.js"></script>
+  </body>
+</html>
